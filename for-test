@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+  int i=100,t,n;
+  for(t = 1;t <= i;t++){
+    if(t%3==0){
+      for(n = 0;n < t;n++)printf("c\n");
+      }else if(t%5==0){
+        printf("5\n");
+      }else printf("%d",t);
+  }
+  return 0;
+}
