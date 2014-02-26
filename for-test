@@ -3,11 +3,11 @@
 int main(){
   int i=100,t,n;
   for(t = 1;t <= i;t++){
-    if(t%3==0){
+    if(t%3 == 0){
       for(n = 0;n < t;n++)printf("c");
       printf("\n");
       }
-    else if(t%5==0){
+    else if(t%5 == 0){
         printf("%dA\n",t);
       }
     else printf("%d\n",t);
